@@ -1,24 +1,33 @@
 # my-customization-terminal
 powershell customization
 
+install the OhMyPosh command
+winget install JanDeDobbeleer.OhMyPosh -s winget
 
+ON windows terminal
+USING powrshell latest version
+(powershell)[https://github.com/PowerShell/PowerShell/releases]
 
+to install another change the name in [name]
+winget install [name].OhMyPosh -s winget
+oh-my-posh init pwsh --config 'C:/Users/Posh/[name].omp.json' | Invoke-Expression
 
-OLD WAY TO INSTALL OH_MY_POSH
-Import-Module oh-my-posh
-Install-Module oh-my-posh -Scope CurrentUser
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted
-Install-Module PSReadLine -Force
+i love ❤️ jonnychipz
+winget install jonnychipz.OhMyPosh -s winget
 
+to make it alwayas run in start put 3 line in this file using notepad
 notepad $PROFILE
-
-IN PROFILE PUT THIS COMMANDS
-oh-my-posh prompt init pwsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/v$(oh-my-posh) --version)/themes/mt.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config 'C:/Users/Posh/jonnychipz.omp.json' | Invoke-Expression
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 
 
+IN PROFILE PUT THIS COMMANDS POWERSHELL NORMAL 1.1
+oh-my-posh init pwsh | Invoke-Expression
+oh-my-posh prompt init pwsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/v$(oh-my-posh --version)/themes/jonnychipz.omp.json | Invoke-Expression
 
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
 
 https://ohmyposh.dev/docs/themes
 
