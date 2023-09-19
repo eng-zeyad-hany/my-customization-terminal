@@ -70,7 +70,7 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 ```
 ### use this
 https://github.com/devblackops/Terminal-Icons
-
+https://github.com/evilprince2009/Windows-Terminal-Customization/tree/main
 
 ### More Themes
 
