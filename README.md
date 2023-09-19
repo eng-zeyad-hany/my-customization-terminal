@@ -56,6 +56,16 @@ To ensure that OhMyPosh and the jonnychipz theme start automatically with your P
 
 Now, every time you open PowerShell, it will use the jonnychipz theme, and you'll have improved predictions and suggestions.
 
+# IN PROFILE, PUT THESE COMMANDS FOR POWERSHELL NORMAL 1.1
+
+# Initialize OhMyPosh and apply the jonnychipz theme
+oh-my-posh init pwsh | Invoke-Expression
+oh-my-posh prompt init pwsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/v$(oh-my-posh --version)/themes/jonnychipz.omp.json | Invoke-Expression
+
+# Configure PSReadLine options
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
+
 ### More Themes
 
 If you want to explore more themes for OhMyPosh, you can find a variety of options [here](https://ohmyposh.dev/docs/themes).
