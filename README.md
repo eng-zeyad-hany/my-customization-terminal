@@ -68,6 +68,9 @@ oh-my-posh prompt init pwsh --config https://raw.githubusercontent.com/JanDeDobb
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 ```
+### use this
+https://github.com/devblackops/Terminal-Icons
+
 
 ### More Themes
 
