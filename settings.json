@@ -95,6 +95,29 @@
     "schemes": 
     [
         {
+            "background": "#011627",
+            "black": "#050A2B",
+            "blue": "#FEC303",
+            "brightBlack": "#F0FF00",
+            "brightBlue": "#FF9F43",
+            "brightCyan": "#60FDFF",
+            "brightGreen": "#7FBA00",
+            "brightPurple": "#D682EC",
+            "brightRed": "#FF6E67",
+            "brightWhite": "#F70361",
+            "brightYellow": "#FFFC67",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#76C1FF",
+            "foreground": "#00BFFF",
+            "green": "#00FF9C",
+            "name": "Blue Matrix",
+            "purple": "#D57BFF",
+            "red": "#FF5680",
+            "selectionBackground": "#FFFFFF",
+            "white": "#C7C7C7",
+            "yellow": "#FFFC58"
+        },
+        {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
             "blue": "#0037DA",
@@ -141,6 +164,29 @@
             "yellow": "#C19C00"
         },
         {
+            "background": "#011627",
+            "black": "#011627",
+            "blue": "#82AAFF",
+            "brightBlack": "#969696",
+            "brightBlue": "#82AAFF",
+            "brightCyan": "#7FDBCA",
+            "brightGreen": "#22DA6E",
+            "brightPurple": "#C792EA",
+            "brightRed": "#EF5350",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFEB95",
+            "cursorColor": "#80A4C2",
+            "cyan": "#21C7A8",
+            "foreground": "#D6DEEB",
+            "green": "#22DA6E",
+            "name": "Night Owl",
+            "purple": "#C792EA",
+            "red": "#EF5350",
+            "selectionBackground": "#1D3B53",
+            "white": "#FFFFFF",
+            "yellow": "#ADDB67"
+        },
+        {
             "background": "#282C34",
             "black": "#282C34",
             "blue": "#61AFEF",
@@ -185,6 +231,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#FAFAFA",
             "yellow": "#C18301"
+        },
+        {
+            "background": "#282A36",
+            "black": "#282A36",
+            "blue": "#57C7FF",
+            "brightBlack": "#686868",
+            "brightBlue": "#57C7FF",
+            "brightCyan": "#9AEDFE",
+            "brightGreen": "#5AF78E",
+            "brightPurple": "#FF6AC1",
+            "brightRed": "#FF5C57",
+            "brightWhite": "#EFF0EB",
+            "brightYellow": "#F3F99D",
+            "cursorColor": "#97979B",
+            "cyan": "#9AEDFE",
+            "foreground": "#EFF0EB",
+            "green": "#5AF78E",
+            "name": "Snazzy",
+            "purple": "#FF6AC1",
+            "red": "#FF5C57",
+            "selectionBackground": "#3E404A",
+            "white": "#F1F1F0",
+            "yellow": "#F3F99D"
         },
         {
             "background": "#002B36",
@@ -301,5 +370,8 @@
             "white": "#C0C0C0",
             "yellow": "#808000"
         }
-    ]
+    ],
+    "showTabsInTitlebar": true,
+    "snapToGridOnResize": false,
+    "theme": "dark"
 }
