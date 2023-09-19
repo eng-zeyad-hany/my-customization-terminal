@@ -1,8 +1,6 @@
-It seems like you're sharing instructions and information related to customizing PowerShell with OhMyPosh and specific themes like "jonnychipz." To create a well-structured readme.md file for this customization, you can follow these steps and provide explanations and real-life coding examples:
-
 ## Customizing PowerShell with OhMyPosh and jonnychipz Theme
 
-This guide will help you customize your PowerShell terminal using OhMyPosh with the popular jonnychipz theme. Here's how you can achieve a stylish and efficient terminal setup.
+This guide will help you customize your PowerShell terminal using OhMyPosh with the lovely jonnychipz theme. Here's how you can achieve a stylish and efficient terminal setup.
 
 ### Prerequisites
 
@@ -17,7 +15,8 @@ Before you begin, ensure you have the following prerequisites:
    ```
 
 3. [Install Caskaydiacove Nerd Font](https://www.nerdfonts.com/font-downloads): Download and install the Nerd Font for better icon support.
-
+** To change font in windows terminal go to apperance
+   
 ### Installing the jonnychipz Theme
 
 To install the jonnychipz theme for OhMyPosh, follow these steps:
@@ -56,7 +55,7 @@ To ensure that OhMyPosh and the jonnychipz theme start automatically with your P
 
 Now, every time you open PowerShell, it will use the jonnychipz theme, and you'll have improved predictions and suggestions.
 
-# IN PROFILE, PUT THESE COMMANDS FOR POWERSHELL NORMAL 1.1
+## PUT THESE COMMANDS FOR POWERSHELL NORMAL 1.1 (optional)
 
 # Initialize OhMyPosh and apply the jonnychipz theme
 oh-my-posh init pwsh | Invoke-Expression
@@ -69,6 +68,7 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 ### More Themes
 
 If you want to explore more themes for OhMyPosh, you can find a variety of options [here](https://ohmyposh.dev/docs/themes).
+## if you like the work hit star ⭐
 
 ## Conclusion
 
