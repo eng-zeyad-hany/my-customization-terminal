@@ -88,5 +88,3 @@ If you want to explore more themes for OhMyPosh, you can find a variety of optio
 ## Conclusion
 
 With OhMyPosh and the jonnychipz theme, you can elevate your PowerShell terminal's appearance and functionality. Enjoy coding with style and efficiency!
-
-Feel free to customize the readme.md further and add any additional information or screenshots to make it more informative and visually appealing.
